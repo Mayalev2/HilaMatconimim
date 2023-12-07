@@ -28,7 +28,7 @@ function bafi (){
     { bafiShow &&
           <div>
       <img className="position-fixed bottom-0 bafi" style={{ }} src={bafiimg} alt="bafi"/>
-      <img className="position-fixed bafi-buble" style={{}} src={bafiBubble} alt="bafi"/>
+      <img className="position-fixed bafi-buble" style={{}} src={bafiBubble } alt="bafi"/>
       <div className='position-fixed text-center d-flex justify-content-center align-items-center bafi-sentence' style={{}}>
           <span className="text-center position-relative" style={{width: "130px"}}>{sentence}</span>
       </div>
