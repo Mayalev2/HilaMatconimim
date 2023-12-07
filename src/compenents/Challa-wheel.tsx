@@ -17,7 +17,7 @@ interface Props{
     const [random, setRandom] = useState(6955);
 
     for(let i= 0 ; i< chalot.length; i++){
-      chalot[i] = new URL(`/src/assets/images/cardImg/${chalot[i]}`, import.meta.url).href
+      chalot[i] = new URL(`/src/assets/images/chalot/nobg/challa${i+1}.png`, import.meta.url).href
     }
 
     const letsSpin = () => {
@@ -579,7 +579,7 @@ interface Props{
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                          <img src={chalot[index]} /></div>      ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
