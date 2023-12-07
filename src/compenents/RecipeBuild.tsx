@@ -40,7 +40,7 @@ interface Props{
                         <div className='d-flex flex-column col-12 col-xl-6 text-end mb-5' style={{direction:"rtl"}}>
                             <span className='display-5 mb-4'>מצרכים</span>
                             <div>
-                              <span className='ms-2'>הכפל כמויות</span>
+                              <span className='ms-2'>הכפל כמויו2ת</span>
                               <input id="message"name="message"  onChange={handleChange}  maxLength={4}   placeholder='1' className='mb-2 text-center' style={{backgroundColor:"rgb(171 108 217 / 31%)", height:"30px", width:"50px", borderRadius:"13px", border:"none"}}></input>
                             </div>
                               {recipeIngrediant.map((item:any) => (
