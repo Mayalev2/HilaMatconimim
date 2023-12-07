@@ -2,7 +2,7 @@ import React from 'react';
 import "../PhotoGallery.css"
 import data from "../data.json"
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import PhotoFg from '../compenents/photoFg';
+import PhotoFg from '../compenents/PhotoFg';
 
  function PhotoGallery() {  
   let recipes = data["recipes"];
