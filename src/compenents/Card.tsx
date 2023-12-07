@@ -15,7 +15,8 @@ interface Props{
 }
 function card ({recipe, name, description , imgSrc, isVegan , isParve, stars, onselectRrecie}:Props){
     const [isClick, setIsClick] = useState('');
-    
+    const imgUrl = new URL(`/src/assets/images/cardImg/${imgSrc}`, import.meta.url).href
+
     return (
     <>
        <Link state={recipe}  to={"/Recipe"} className="mLink" style={{width: "350px",  textDecoration:"none", color:"black",marginBottom:"50px" }}>
