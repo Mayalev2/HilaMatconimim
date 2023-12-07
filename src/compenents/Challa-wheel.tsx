@@ -583,59 +583,59 @@ interface Props{
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
                     {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
                     {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
             </div>
         
       </div>
