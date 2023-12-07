@@ -19,7 +19,7 @@ interface Props{
   const recipeIngrediant = newRec.recipeIngrediant;
   const recipeInstruction = newRec.instruction;
   let count= 0;
-
+  
   const [multi, setMessage] = useState(1);
   const  multiRef = useRef(1);
   

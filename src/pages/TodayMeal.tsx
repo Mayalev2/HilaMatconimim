@@ -4,6 +4,7 @@ import Card from "../compenents/Card";
 import data from "../data.json"
 import { useState, useEffect, useRef } from "react";
 import ButtonTdM from '../compenents/ButtonTdM';
+import imgSad from '../assets/images/sad-face-in-rounded-square.png'
 
  function TodayMeal() {
   let exmpale = data["recipes"]["1"]
@@ -92,7 +93,7 @@ import ButtonTdM from '../compenents/ButtonTdM';
               <span className='h3 text-center text-lg-end mb-2'>זה הזמן לחזור למטבח ולבשל עוד מתכונים</span>
             </div>
             <div className="d-flex justify-content-center row col-6 col-lg-4 order-last order-lg-first align-content-center mx-auto ">
-              <img src='/src/assets/images/sad-face-in-rounded-square.png' />
+              <img src={imgSad} />
             </div>  
             </div>
             }

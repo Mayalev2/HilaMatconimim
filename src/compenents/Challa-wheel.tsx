@@ -16,6 +16,10 @@ interface Props{
     const [challaWinner, setChalla] = useState("");
     const [random, setRandom] = useState(6955);
 
+    for(let i= 0 ; i< chalot.length; i++){
+      chalot[i] = new URL(`/src/assets/images/cardImg/${chalot[i]}`, import.meta.url).href
+    }
+
     const letsSpin = () => {
         var x = 964; //min value
         var y = 9999; //max value
@@ -52,7 +56,6 @@ interface Props{
     } , 14000);
       
       }
-
     }
     // const imgUrl = new URL(`/src/assets/images/cardImg/${imgSrc}`, import.meta.url).href
 
@@ -568,11 +571,11 @@ interface Props{
 
       <div id="slot-wheels"> 
         <div id="wheel1" className="wheel d-flex flex-column"  style={{overflow:"hidden"}}>
-          <div className="overlay "></div>
+          <div className="overlay"></div>
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
-                         <img src={`/src/assets/images/chalot/nobg/challa${index+1}.png`} /></div>          ))}
+                         <img src={chalot[index]} /></div>          ))}
           {chalot.map((item, index) => 
           (
             <div   className={`divImgWheel ${isStart ? "animationSpin": isfinish ? "finishSpin" : ""}`} style={{top: isfinish ? `${random * -96 -6655}%` : "" }}> 
