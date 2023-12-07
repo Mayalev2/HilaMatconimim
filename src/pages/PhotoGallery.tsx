@@ -10,7 +10,7 @@ import PhotoFg from '../compenents/PhotoFg';
        return (        
          <>
 
-         <div className='d-flex justify-content-center row' style={{paddingTop:"90px", width:"100%"}}>
+         <div className='d-flex justify-content-center row mx-auto' style={{paddingTop:"70px", width:"100%"}}>
          {recipes.map((item) => (
           
         <Link state={item}  to={"/Recipe"} className=" col-4 col-lg-2" style={{textDecoration:"none", color:"black", padding:"0px"}}>

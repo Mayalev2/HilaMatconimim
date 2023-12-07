@@ -14651,6 +14651,10 @@ footer, header, hgroup, menu, nav, section {
   top: 0px;
   margin: 70px 0px;
 }
+.bg-light{
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: rgb(58, 58, 58,14%) 1px 2px 10px 1px;
+}
   @media only screen and (min-width: 960px) {
     .positionBrand{
       position: relative;
@@ -14697,6 +14701,9 @@ footer, header, hgroup, menu, nav, section {
       position: relative;
       top: 0px;
       margin: 0px 0px;
+    }
+    .navBarDES{
+      box-shadow: rgb(58, 58, 58,14%) 1px 2px 10px 1px;
     }
   }
   @media only screen and (max-width: 960px) {

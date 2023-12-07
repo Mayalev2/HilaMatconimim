@@ -54,6 +54,7 @@ interface Props{
       }
 
     }
+    // const imgUrl = new URL(`/src/assets/images/cardImg/${imgSrc}`, import.meta.url).href
 
        return (        
          <>
