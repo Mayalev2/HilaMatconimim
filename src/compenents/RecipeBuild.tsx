@@ -37,7 +37,7 @@ interface Props{
                     <span className='text-center display-2 fw-bold mb-4' style={{color:"rgb(171 108 217)"}}>{newRec.name}</span>
                     <span className='mb-2 mb-md-5  align-self-center col-9' style={{ border:"2px solid rgb(171 108 217)", borderRadius:"15px"}}></span>
                     <div className='d-flex row align-self-center col-11 justify-content-center'>
-                        <img className='col-12 col-sm-8 col-xl-6 mb-4' src={araisRoll} alt="Card image cap" style={{ padding:"16px", borderRadius:"20px"}}/>
+                        <img className='col-12 col-sm-8 col-xl-6 mb-4' src={'/assets/araisRoll-f283e4c7.jpeg'} alt="Card image cap" style={{ padding:"16px", borderRadius:"20px"}}/>
                         <div className='d-flex flex-column col-12 col-xl-6 text-end mb-5' style={{direction:"rtl"}}>
                             <span className='display-5 mb-4'>מצרכים</span>
                             <div>
