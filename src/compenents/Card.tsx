@@ -21,7 +21,7 @@ function card ({recipe, name, description , imgSrc, isVegan , isParve, stars, on
     <>
        <Link state={recipe}  to={"/Recipe"} className="mLink" style={{width: "350px",  textDecoration:"none", color:"black",marginBottom:"50px" }}>
     <div onClick={ () =>{onselectRrecie(recipe)}} className="card mx-auto card-2" style={{ padding: "0px", border:"transparent",borderRadius:"6px", boxShadow:"rgb(58, 58, 58,14%) 1px 2px 10px 1px", cursor:"pointer"}}>
-        <img className=" card-2" src={`/src/assets/images/cardImg/${imgSrc}`} alt="Card image cap" style={{ padding:"16px", borderRadius:"20px"}}/>
+        <img className=" card-2" src={imgUrl} alt="Card image cap" style={{ padding:"16px", borderRadius:"20px"}}/>
         <div className="card-body" style={{height:"150px", textDecoration:"none"}}>
             <div className="d-flex row justify-content-end " style={{height:"26px"}}>
                 <div className="d-flex justify-content-center mb-3 col-2 align-self-left">

@@ -1,6 +1,9 @@
 import '/src/App.css'
 import data from "../data.json"
 import React, { useEffect, useRef, useState } from "react";
+import bafiimg from '../assets/images/bafi.svg'
+import bafiBubble from '../assets/images/bafiBubble.png'
+
 
 
 function bafi (){
@@ -24,8 +27,8 @@ function bafi (){
     <>
     { bafiShow &&
           <div>
-      <img className="position-fixed bottom-0 bafi" style={{ }} src="/src/assets/images/bafi.svg" alt="bafi"/>
-      <img className="position-fixed bafi-buble" style={{}} src="/src/assets/images/bafiBubble.png" alt="bafi"/>
+      <img className="position-fixed bottom-0 bafi" style={{ }} src={bafiimg} alt="bafi"/>
+      <img className="position-fixed bafi-buble" style={{}} src={bafiBubble} alt="bafi"/>
       <div className='position-fixed text-center d-flex justify-content-center align-items-center bafi-sentence' style={{}}>
           <span className="text-center position-relative" style={{width: "130px"}}>{sentence}</span>
       </div>
