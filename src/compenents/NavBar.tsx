@@ -1,6 +1,5 @@
 import { useState } from "react";
 import '/src/App.css'
-import '/src/javascript.js'
 import React from "react";
 import { BrowserRouter, Route, Link, Outlet} from "react-router-dom";
 import Recipe from "../pages/Recipe";
