@@ -43,7 +43,7 @@ export default function App (){
           <Route path="Recipe" element={<Recipe />}  />
           <Route path="PhotoGallery" element={<PhotoGallery />}  />
           <Route path="CahallaWheel" element={<CahallaWheel />}  />
-          <Route path="TodayMeal" element={<TodayMeal />}  />
+          <Route path="/" element={<TodayMeal />}  />
         </Route>
       </Routes>
     </BrowserRouter>
