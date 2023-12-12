@@ -42,8 +42,8 @@ export default function App (){
           <Route index element={<Home />} />
           <Route path="Recipe" element={<Recipe />}  />
           <Route path="PhotoGallery" element={<PhotoGallery />}  />
-          <Route path="CahallaWheel" element={<CahallaWheel />}  />
-          <Route path="/matconimim.netlify.app/TodayMeal" element={<TodayMeal />}  />
+          <Route path="/CahallaWheel" element={<CahallaWheel />}  />
+          <Route path="matconimim.netlify.app/TodayMeal" element={<TodayMeal />}  />
         </Route>
       </Routes>
     </BrowserRouter>
