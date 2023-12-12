@@ -12,7 +12,7 @@ body{
 
 @font-face {
   font-family:"son";
-  src:  url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew&display=swap')
+  src:  url('/src/assets/font/NotoSansHebrew-VariableFont_wdth\,wght.ttf') format("ttf");
 }
 *{
   font-family:"son";
