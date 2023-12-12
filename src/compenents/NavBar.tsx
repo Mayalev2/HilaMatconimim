@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter, Route, Link, Outlet} from "react-router-dom";
 import Recipe from "../pages/Recipe";
 import { Nav, Navbar} from 'react-bootstrap';
+import fontson from "../assets/font/NotoSansHebrew-VariableFont_wdth,wght.ttf"
 
 
 function navBar (){
@@ -12,7 +13,7 @@ function navBar (){
     return (
     <>
  
-<nav className="navbar navbar-expand-lg navbar-light bg-light" style={{marginBottom:"32px", height:"75px",width:"100%",position:"fixed", zIndex:"2", backgroundColor:"rgb(255, 255, 255)"}}>
+<nav className="navbar navbar-expand-lg navbar-light bg-light" style={{fontFamily:`${fontson}`, marginBottom:"32px", height:"75px",width:"100%",position:"fixed", zIndex:"2", backgroundColor:"rgb(255, 255, 255)"}}>
   <div className="container-fluid navBarDES" style={{direction:"rtl",backgroundColor:"#f8f9fa"}}>
   <Link to="/" style={{textDecoration:"none"}}><a className="navbar-brand  fw-bold positionBrand" style={{color:"rgb(171 108 217)", fontSize:"30px", top:"8px"}} href="Recipe">מתכונימים</a></Link>
     <Navbar collapseOnSelect  expand="lg" className="justify-content-end text-end m-0 m-lg-auto">
