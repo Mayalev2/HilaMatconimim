@@ -6,7 +6,7 @@ body{
     background-image: url(/src/assets/images/bg5.png);
     background-size: contain;
     background-color: #fdeafe !important;
-    font-family: "son";
+    font-family: inherit;
     overflow-x: hidden;
 }
 
