@@ -15,7 +15,7 @@ body{
   src:  url('/src/assets/font/NotoSansHebrew-VariableFont_wdth\,wght.ttf') format("ttf");
 }
 *{
-  font-family:"son";
+  font-family: inherit;
 }
 .son{
   font-family:"son";
