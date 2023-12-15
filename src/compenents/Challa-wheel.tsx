@@ -15,12 +15,15 @@ interface Props{
     const [isConfeti, setConfeti] = useState(false);
     const [challaWinner, setChalla] = useState("");
     const [random, setRandom] = useState(6955);
+    const chalotName = ['חלה עגולה','חלת דג','חצי שומשום ','חלה סינית','חלה קלאסית','חלת לב'];
     let arrSrc = chalot;
 
+
+ 
     for(let i= 0 ; i< chalot.length; i++){
       arrSrc[i] = new URL(`/src/assets/images/chalot/nobg/challa${i+1}.png`, import.meta.url).href
-    }
-
+    }    
+    
     const letsSpin = () => {
         var x = 964; //min value
         var y = 9999; //max value
@@ -52,7 +55,8 @@ interface Props{
         setStart(false);
         setfinish(true);
         setConfeti(true);
-        setChalla(chalot[rnd ]);
+        console.log(chalotName)
+        setChalla(chalotName[rnd]);
         isFinishRef.current =true;
     } , 14000);
       
